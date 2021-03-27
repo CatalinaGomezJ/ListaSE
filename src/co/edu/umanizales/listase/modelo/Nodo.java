@@ -19,10 +19,6 @@ public class Nodo implements Serializable{
         this.dato = dato;
     }
 
-    public Nodo() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
     public Infante getDato() {
         return dato;
     }

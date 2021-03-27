@@ -23,10 +23,6 @@ public class Infante implements Serializable{
         this.ciudad = ciudad;
     }
 
-    public Infante() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
     public String getNombre() {
         return nombre;
     }

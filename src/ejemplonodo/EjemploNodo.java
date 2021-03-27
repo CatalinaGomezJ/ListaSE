@@ -20,12 +20,11 @@ public class EjemploNodo {
      */
     public static void main(String[] args) { 
             //Instancia de la clase Nodo
-            Nodo miNodo = new Nodo();
-            System.out.print("");
-           
+            //Nodo miNodo = new Nodo();
+         
             
             //Instancia de la clase Infante
-            Infante miInfante = new Infante();
+            Infante miInfante = new Infante("Luis", (byte)1, "Pereira");
             
             //Instancia de la clase ListaSE
             ListaSE milistaSE = new ListaSE();
