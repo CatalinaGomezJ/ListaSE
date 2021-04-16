@@ -5,6 +5,7 @@
  */
 package co.edu.umanizales.listase.modelo;
 
+import co.edu.umanizales.listase.modelo.excepcion.ListaSEExcepcion;
 import java.io.Serializable;
 
 /**
@@ -27,7 +28,7 @@ public class ListaSE implements Serializable{
     }
     
     //Método para adicionar un Nodo
-    public boolean adicionarNodo(Nodo _nodo){
+    public boolean adicionarNodo(Nodo _nodo)throws ListaSEExcepcion{
         if (cabeza == null){
             cabeza = _nodo;
         }
